@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أفضل أدوات الذكاء الاصطناعي - الدليل الشامل</title>
+    <style>
+        /* إعدادات الصفحة والخلفية الداكنة مستوحاة من الصورة */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b1121; /* أزرق داكن جداً (خلفية الفضاء) */
+            background-image: radial-gradient(circle at top, #131e3a, #0b1121);
+            color: #e2e8f0;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .header h1 {
+            color: #ffffff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+        }
+        .header h1 span {
+            color: #00e5ff; /* لون سماوي مشع للكلمة الرئيسية */
+        }
+        .header p {
+            color: #94a3b8;
+            font-size: 1.2em;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        /* تصميم البطاقات (مستوحى من الصناديق في الصورة) */
+        .category-card {
+            background: rgba(26, 32, 53, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+            border: 1px solid #2a3441;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+        }
+        .category-header {
+            padding: 18px 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        /* الألوان المخصصة لكل قسم بناءً على صورتك */
+        .card-blue { border-top: 4px solid #3b82f6; } /* قسم النصوص */
+        .header-blue { color: #60a5fa !important; }
+        .text-blue { color: #93c5fd; }
+
+        .card-purple { border-top: 4px solid #a855f7; } /* قسم الصور */
+        .header-purple { color: #c084fc !important; }
+        .text-purple { color: #d8b4fe; }
+
+        .card-green { border-top: 4px solid #10b981; } /* قسم الشات بوت */
+        .header-green { color: #34d399 !important; }
+        .text-green { color: #6ee7b7; }
+
+        .card-orange { border-top: 4px solid #f59e0b; } /* قسم الصوت */
+        .header-orange { color: #fbbf24 !important; }
+        .text-orange { color: #fcd34d; }
+
+        .card-pink { border-top: 4px solid #ec4899; } /* قسم التصميم */
+        .header-pink { color: #f472b6 !important; }
+        .text-pink { color: #f9a8d4; }
+
+        .card-teal { border-top: 4px solid #14b8a6; } /* قسم الفيديو */
+        .header-teal { color: #2dd4bf !important; }
+        .text-teal { color: #5eead4; }
+
+        .card-lightblue { border-top: 4px solid #0ea5e9; } /* قسم الكتابة */
+        .header-lightblue { color: #38bdf8 !important; }
+        .text-lightblue { color: #7dd3fc; }
+
+        .tool-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .tool-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .tool-item:last-child {
+            border-bottom: none;
+        }
+        
+        /* تصميم الروابط التشعبية */
+        .tool-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .tool-name::after {
+            content: "🔗";
+            font-size: 0.6em;
+            opacity: 0.5;
+        }
+        .tool-name:hover {
+            text-decoration: underline;
+            text-shadow: 0 0 8px currentColor;
+            opacity: 0.8;
+        }
+        .tool-desc {
+            font-size: 0.9em;
+            color: #cbd5e1;
+            max-width: 60%;
+            text-align: left;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>أفضل <span>أدوات الذكاء الاصطناعي</span></h1>
+        <p>الدليل الشامل لكل المجالات (اضغط على اسم الأداة لزيارة الموقع)</p>
+    </div>
+
+    <div class="container">
+        <div class="category-card card-blue">
+            <div class="category-header header-blue">🤖 المساعدات الذكية والبحث</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://chatgpt.com" target="_blank" class="tool-name text-blue">ChatGPT</a> <span class="tool-desc">يجيب عن أي شيء</span></li>
+                <li class="tool-item"><a href="https://claude.ai" target="_blank" class="tool-name text-blue">Claude</a> <span class="tool-desc">تحليل وقراءة الملفات الطويلة</span></li>
+                <li class="tool-item"><a href="https://www.perplexity.ai" target="_blank" class="tool-name text-blue">Perplexity AI</a> <span class="tool-desc">بحث ذكي بديل لـ Google</span></li>
+                <li class="tool-item"><a href="https://www.phind.com" target="_blank" class="tool-name text-blue">Phind</a> <span class="tool-desc">بحث للمبرمجين</span></li>
+            </ul>
+        </div>
+
+        <div class="category-card card-purple">
+            <div class="category-header header-purple">🌌 تصميم الصور والفيديوهات</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://gemini.google.com" target="_blank" class="tool-name text-purple">Gemini</a> <span class="tool-desc">تصميم صور وفيديوهات مجاناً</span></li>
+                <li class="tool-item"><a href="https://www.midjourney.com" target="_blank" class="tool-name text-purple">Midjourney</a> <span class="tool-desc">يصمم صوراً خرافية</span></li>
+                <li class="tool-item"><a href="https://leonardo.ai" target="_blank" class="tool-name text-purple">Leonardo AI</a> <span class="tool-desc">بديل قوي لميدجورني</span></li>
+                <li class="tool-item"><a href="https://runwayml.com" target="_blank" class="tool-name text-purple">Runway ML</a> <span class="tool-desc">فيديوهات بالذكاء الاصطناعي</span></li>
+                <li class="tool-item"><a href="https://pika.art" target="_blank" class="tool-name text-purple">Pika Labs</a> <span class="tool-desc">يحول النص إلى فيديو</span></li>
+                <li class="tool-item"><a href="https://www.heygen.com" target="_blank" class="tool-name text-purple">HeyGen</a> <span class="tool-desc">فيديوهات بوجه بشري</span></li>
+                <li class="tool-item"><a href="https://www.synthesia.io" target="_blank" class="tool-name text-purple">Synthesia</a> <span class="tool-desc">فيديوهات بدون تصوير</span></li>
+                <li class="tool-item"><a href="https://stockimg.ai" target="_blank" class="tool-name text-purple">Stockimg AI</a> <span class="tool-desc">صور بدون حقوق</span></li>
+            </ul>
+        </div>
+
+        <div class="category-card card-lightblue">
+            <div class="category-header header-lightblue">✍️ الكتابة وصناعة المحتوى</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://www.copy.ai" target="_blank" class="tool-name text-lightblue">Copy.ai</a> <span class="tool-desc">كتابة إعلانات ومحتوى</span></li>
+                <li class="tool-item"><a href="https://www.jasper.ai" target="_blank" class="tool-name text-lightblue">Jasper AI</a> <span class="tool-desc">تسويق وكتابة احترافية</span></li>
+                <li class="tool-item"><a href="https://quillbot.com" target="_blank" class="tool-name text-lightblue">QuillBot</a> <span class="tool-desc">إعادة صياغة النصوص</span></li>
+                <li class="tool-item"><a href="https://undetectable.ai" target="_blank" class="tool-name text-lightblue">Undetectable AI</a> <span class="tool-desc">يجعل النص يبدو بشرياً</span></li>
+            </ul>
+        </div>
+
+        <div class="category-card card-pink">
+            <div class="category-header header-pink">🌐 المواقع والعروض التقديمية</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://durable.co" target="_blank" class="tool-name text-pink">Durable</a> <span class="tool-desc">يبني موقعاً في ثوانٍ</span></li>
+                <li class="tool-item"><a href="https://www.framer.com" target="_blank" class="tool-name text-pink">Framer AI</a> <span class="tool-desc">تصميم مواقع احترافية</span></li>
+                <li class="tool-item"><a href="https://gamma.app" target="_blank" class="tool-name text-pink">Gamma</a> <span class="tool-desc">عروض تقديمية رهيبة</span></li>
+                <li class="tool-item"><a href="https://tome.app" target="_blank" class="tool-name text-pink">Tome</a> <span class="tool-desc">عرض قصصي احترافي</span></li>
+            </ul>
+        </div>
+
+        <div class="category-card card-orange">
+            <div class="category-header header-orange">🎙️ الصوتيات وتفريغ الاجتماعات</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://elevenlabs.io" target="_blank" class="tool-name text-orange">ElevenLabs</a> <span class="tool-desc">صوت واقعي جداً</span></li>
+                <li class="tool-item"><a href="https://murf.ai" target="_blank" class="tool-name text-orange">Murf AI</a> <span class="tool-desc">تحويل النص إلى صوت</span></li>
+                <li class="tool-item"><a href="https://otter.ai" target="_blank" class="tool-name text-orange">Otter.ai</a> <span class="tool-desc">تحويل الصوت إلى نص</span></li>
+                <li class="tool-item"><a href="https://fireflies.ai" target="_blank" class="tool-name text-orange">Fireflies AI</a> <span class="tool-desc">تسجيل وتلخيص الاجتماعات</span></li>
+            </ul>
+        </div>
+
+        <div class="category-card card-green">
+            <div class="category-header header-green">💼 الإنتاجية والأعمال</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://www.notion.so" target="_blank" class="tool-name text-green">Notion AI</a> <span class="tool-desc">تنظيم وإدارة مشاريع</span></li>
+                <li class="tool-item"><a href="https://askyourpdf.com" target="_blank" class="tool-name text-green">AskYourPDF</a> <span class="tool-desc">تلخيص وشرح ملفات PDF</span></li>
+                <li class="tool-item"><a href="https://looka.com" target="_blank" class="tool-name text-green">Looka</a> <span class="tool-desc">تصميم شعارات</span></li>
+                <li class="tool-item"><a href="https://namify.tech" target="_blank" class="tool-name text-green">Namify</a> <span class="tool-desc">اقتراح أسماء مشاريع</span></li>
+                <li class="tool-item"><a href="https://www.kickresume.com" target="_blank" class="tool-name text-green">Kickresume</a> <span class="tool-desc">إنشاء CV احترافي</span></li>
+            </ul>
+        </div>
+
+        <div class="category-card card-teal">
+            <div class="category-header header-teal">✨ أدوات ترفيهية ومتنوعة</div>
+            <ul class="tool-list">
+                <li class="tool-item"><a href="https://replika.com" target="_blank" class="tool-name text-teal">Replika</a> <span class="tool-desc">صديق افتراضي</span></li>
+                <li class="tool-item"><a href="https://character.ai" target="_blank" class="tool-name text-teal">Character AI</a> <span class="tool-desc">تقمص شخصيات</span></li>
+                <li class="tool-item"><a href="https://tripnotes.ai" target="_blank" class="tool-name text-teal">Tripnotes</a> <span class="tool-desc">تخطيط رحلات</span></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
